@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google.com</title>
+  </head>
+  <body>
+    <style>
+       .btn1:hover {
+        cursor: pointer;
+       } 
+       .btn2:hover {
+        cursor: pointer; 
+       }
+    </style>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div style="width: 100%; text-align:center ;">
+<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+<br>
+<input id="txt" style="width:580px; border:1px solid rgb(190, 190, 190); height: 40px; border-radius:50px ;">
+<br>
+<br>
+
+<button  class="btn1" style="background-color: #f8f9fa ; border: none; padding: 10px;border-radius: 5px; font-family: arial,sans-serif; font-size: 14px;">برای 50 میلیون کلیک کن</button>
+<button class="btn2" onclick="play()" style="background-color: #f8f9fa ; border: none;padding: 10px;border-radius: 5px ;font-family: arial,sans-serif; font-size: 14px; ">نه ببخشید اینو بزن</button>
+<audio id="mp3" src="../music/Here comes the money Shane McMahon.mp3.EDIT2.mp3"></audio> 
+<script>
+    const txt = document.getElementById("txt");
+    
+    txt.addEventListener('input', function() {
+        window.location.href = "fehsar.html"
+    });
+    function play() {
+        document.getElementById("mp3").play();
+
+    }
+    // Dev: Mani + Radio
+    // @Mani Ft_Rado
+    // Best collab of the year
+</script>
+
+  </body>
+
+</html>
